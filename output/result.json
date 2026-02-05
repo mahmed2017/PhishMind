@@ -1,0 +1,31 @@
+{
+    "url": "paypal.verify-login[.]ru",
+    "features": {
+        "url": "paypal.verify-login[.]ru",
+        "domain": "",
+        "url_length": 24,
+        "has_https": false,
+        "has_ip": false,
+        "subdomain_count": 0,
+        "suspicious_keywords": {
+            "high_risk": [
+                "verify"
+            ],
+            "neutral": [
+                "login"
+            ]
+        },
+        "uses_shortener": false,
+        "path_length": 24
+    },
+    "result": {
+        "score": 5.5,
+        "verdict": "Medium Risk",
+        "reasons": [
+            "No HTTPS detected",
+            "High-risk keywords detected: ['verify']",
+            "Neutral keywords detected: ['login']",
+            "Long URL path detected"
+        ]
+    }
+}
